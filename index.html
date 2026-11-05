@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d"><title>Welcome to Website Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">W<span>/</span>ME</a>
+    <nav><a href="#home" class="active">HOME</a><a href="#profile">PROFILE</a><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#contact">CONTACT</a></nav>
+    <div class="school-mark">
+      <img src="assets/logo-sekolah.png"
+alt="logo sekolah">
+    </div>
+    <button class="menu" aria-label="Buka menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero page active" id="home">
+      <div class="hero-bg"></div><div class="hero-shade"></div>
+      <div class="hero-lines"></div>
+      <img class="hero-character" src="assets/character-cutout.png" alt="Karakter ilustrasi di sisi kiri">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> PERSONAL PORTFOLIO <span></span></p>
+        <h1>WELCOME TO<br><em>WEBSITE</em> <strong>ME</strong></h1>
+        <p class="hero-sub">Explore my world. Learn about me.</p>
+        <button class="view-btn" data-go="profile">VIEW <span>↗</span></button>
+        <p class="scroll-note">SCROLL TO EXPLORE <b>↓</b></p>
+      </div>
+      <div class="hero-index">01 <i>/</i> 06</div>
+    </section>
+
+    <section class="page content-page" id="profile">
+      <div class="section-kicker">01 — PERSONAL PROFILE</div><h2>MY <em>PROFILE</em></h2>
+      <div class="profile-grid">
+        <div class="portrait-frame"><div class="portrait-placeholder">YOUR<br>PHOTO</div><span class="frame-label">IDENTITY / 001</span></div>
+        <div class="profile-info">
+          <p class="lead">Halo! Senang bisa bertemu denganmu.</p>
+          <div class="info-row"><span>NAMA</span><b>[MUHAMAD REIFAN ALFAREZI RAMDANI]</b></div>
+          <div class="info-row"><span>KELAS</span><b>[X TKJ A]</b></div>
+          <div class="info-row"><span>SEKOLAH</span><b>[SMK INFORMATIKA BINA GENERASI]</b></div>
+          <div class="info-row"><span>JURUSAN</span><b>Teknik Jaringan Komputer dan Telekomunikasi</b></div>
+          <p class="small-note">Ganti teks dalam tanda kurung dengan data kamu sendiri.</p>
+        </div>
+      </div>
+      <button class="next-btn" data-go="about">NEXT SECTION <span>→</span></button>
+    </section>
+
+    <section class="page content-page" id="about">
+      <div class="section-kicker">02 — GET TO KNOW ME</div><h2>TENTANG <em>SAYA</em></h2>
+  <div class="about-card"><div class="about-symbol">私</div><div><p class="lead">Halo, nama saya [MUHAMAD REIFAN ALFAREZI RAMDANI].</p><p>Saya adalah siswa yang tertarik dengan dunia teknologi, komputer, dan jaringan. Saya senang mempelajari hal baru, mencoba berbagai hal, serta mengembangkan kemampuan agar menjadi pribadi yang lebih baik.</p><p>Melalui website ini, saya ingin memperkenalkan diri, perjalanan belajar, dan minat saya di bidang TJKT.</p></div></div>
+      <button class="next-btn" data-go="tjkt">NEXT SECTION <span>→</span></button>
+    </section>
+
+    <section class="page content-page" id="tjkt">
+      <div class="section-kicker">03 — MY STUDY JOURNEY</div><h2>WHY I CHOOSE <em>TJKT</em></h2>
+      <div class="reason-grid"><article><b>01</b><h3>TEKNOLOGI</h3><p>Saya ingin memahami cara komputer dan jaringan bekerja.</p></article><article><b>02</b><h3>KEAHLIAN</h3><p>Saya ingin memiliki keterampilan praktik yang berguna dan terus berkembang.</p></article><article><b>03</b><h3>MASA DEPAN</h3><p>Bidang jaringan dan telekomunikasi memiliki banyak peluang untuk dipelajari.</p></article></div>
+      <p class="quote">“Belajar hari ini, membangun teknologi untuk masa depan.”</p>
+      <button class="next-btn" data-go="skills">NEXT SECTION <span>→</span></button>
+    </section>
+
+    <section class="page content-page" id="skills">
+      <div class="section-kicker">04 — WHAT I AM LEARNING</div><h2>MY <em>TJKT SKILLS</em></h2><p class="section-intro">Persentase berikut adalah contoh awal. Sesuaikan dengan kemampuanmu yang sebenarnya.</p>
+      <div class="skills-list">
+        <div class="skill"><div><span>Dasar Jaringan Komputer</span><b>72%</b></div><i style="--level:65%"></i></div>
+        <div class="skill"><div><span>IP Address & Subnetting</span><b>64%</b></div><i style="--level:55%"></i></div>
+        <div class="skill"><div><span>Instalasi Sistem Operasi</span><b>66%</b></div><i style="--level:60%"></i></div>
+        <div class="skill"><div><span>Linux & Terminal</span><b>40%</b></div><i style="--level:40%"></i></div>
+        <div class="skill"><div><span>HTML & CSS</span><b>87%</b></div><i style="--level:45%"></i></div>
+        <div class="skill"><div><span>Troubleshooting</span><b>50%</b></div><i style="--level:50%"></i></div>
+      </div>
+      <div class="total-skill"><strong>50<span>%</span></strong><small>LEARNING<br>PROGRESS</small></div>
+      <button class="next-btn" data-go="contact">NEXT SECTION <span>→</span></button>
+    </section>
+
+    <section class="page content-page" id="contact">
+      <div class="section-kicker">05 — LET'S CONNECT</div><h2>FIND <em>ME</em></h2>
+      <p class="section-intro">Terhubung denganku melalui media sosial.</p>
+      <div class="social-grid">
+        <a href="https://instagram.com/" target="_blank" rel="noreferrer" class="social-card"><span class="social-icon instagram">◎</span><span><small>INSTAGRAM</small><b>@CinaBedmud</b></span><i>↗</i></a>
+        <a href="https://tiktok.com/" target="_blank" rel="noreferrer" class="social-card"><span class="social-icon tiktok">♪</span><span><small>TIKTOK</small><b>@CinaBedmud</b></span><i>↗</i></a>
+      </div>
+      <div class="closing">THANK YOU FOR VISITING <span>✦</span><p>Keep learning. Keep growing.</p></div>
+      <button class="next-btn" data-go="home">BACK TO HOME <span>↑</span></button>
+    </section>
+  </main>
+  <div class="page-controls"><button id="prev" aria-label="Halaman sebelumnya">←</button><span id="counter">01 / 06</span><button id="next" aria-label="Halaman berikutnya">→</button></div>
+  <script src="script.js"></script>
+</body></html>
